@@ -1,0 +1,8 @@
+Website = "https://duckdice.io/bot-api"
+
+[Details]
+Icon = "assets/icon.png"
+Name = "DuckDice Bot"
+ID = "io.dbot.duckdice"
+Version = "1.0.0"
+Build = 2

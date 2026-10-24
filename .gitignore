@@ -1,0 +1,31 @@
+# Build outputs
+/duckdice-bot
+/duckdice-bot.exe
+/dbot
+/fyne-cross/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Runtime user data: saved strategy profiles and bet logs
+/profiles/
+/logs/
+*.csv
+
+# Secrets. The app keeps the API key in the system keyring (or, as a
+# fallback, in ~/.config/fyne/.../preferences.json, outside this repo);
+# these patterns stop a copied key or settings file from being committed.
+preferences.json
+.env
+.env.*
+*.key
+*api_key*
+*apikey*
+secrets*
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
